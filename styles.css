@@ -51,10 +51,14 @@ section {
 }
 
 footer {
-  background-color: #f8f9fa;
-  padding: 20px;
+  background-color: #000;
+  padding: 20px 0;
   text-align: center;
-  margin-top: 20px;
+}
+
+footer p {
+  color: #0ff;
+  text-shadow: 0 0 2px #0ff, 0 0 4px #0ff;
 }
 
 .project {
@@ -84,4 +88,39 @@ footer {
 
 h2 {
   text-shadow: 0 0 2px #0ff, 0 0 4px #0ff;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.about-content {
+  width: 50%;
+  text-align: center;
+  color: #0ff;
+  text-shadow: 0 0 2px #0ff, 0 0 4px #0ff;
+}
+
+.about-content h2 {
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
